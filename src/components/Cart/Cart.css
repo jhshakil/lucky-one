@@ -1,0 +1,14 @@
+.cart {
+    background-color: #aeb6bf;
+    position: sticky;
+    top: 0;
+    padding: 10px 0;
+}
+
+.btn {
+    font-size: medium;
+    font-weight: bold;
+    color: white;
+    width: 100%;
+    background-color: #34495e;
+}
