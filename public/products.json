@@ -1,0 +1,64 @@
+[
+  {
+    "id": "623ddb8aefbba36663093f2f",
+    "price": 11160,
+    "picture": "images/SS-Valarie-3.0.jpg",
+    "name": "SS Valarie 3.0",
+    "quantity": 0
+  },
+  {
+    "id": "623ddb8ab39be66914afec81",
+    "price": 13500,
+    "picture": "images/SS-Retro-Classic-Super.jpg",
+    "name": "SS Retro Classic Super",
+    "quantity": 0
+  },
+  {
+    "id": "623ddb8afb68681b795f0481",
+    "price": 15390,
+    "picture": "images/SS-Ranger.jpg",
+    "name": "SS Ranger",
+    "quantity": 0
+  },
+  {
+    "id": "623ddb8ae28a3ba2ad040d79",
+    "price": 1890,
+    "picture": "images/Retro-Classic.jpg",
+    "name": "Retro Classic",
+    "quantity": 0
+  },
+  {
+    "id": "623ddb8a7416b48c94d9528e",
+    "price": 1683,
+    "picture": "images/SS-Soft-Pro-Player.jpg",
+    "name": "SS Soft Pro Player",
+    "quantity": 0
+  },
+  {
+    "id": "623ddb8a945a36310c8e7c59",
+    "price": 29700,
+    "picture": "images/TON-Laser-Engraved-Special-Edition.jpg",
+    "name": "TON Laser Engraved Special Edition",
+    "quantity": 0
+  },
+  {
+    "id": "623ddb8abe58a2591b412ecc",
+    "price": 29700,
+    "picture": "images/SS-Master-8000.jpg",
+    "name": "SS Master 8000",
+    "quantity": 0
+  },
+  {
+    "id": "623ddb8acdf258ee42df64d5",
+    "price": 25200,
+    "picture": "images/TON-Legend.jpg",
+    "name": "TON Legend"
+  },
+  {
+    "id": "623ddb8a1568e86697426af2",
+    "price": 18000,
+    "picture": "images/VA-900.jpg",
+    "name": "VA 900",
+    "quantity": 0
+  }
+]
