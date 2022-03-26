@@ -1,4 +1,4 @@
 # Cricket Bat
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was making a website name [Cricket Bat](https://meek-belekoy-cc7525.netlify.app/).
 
