@@ -11,3 +11,18 @@
     padding: 0 50px;
     gap: 15px;  
 }
+
+@media only screen and (max-width: 600px) {
+    .shop-container {
+      display: grid;
+      grid-template-columns: 1fr;
+      margin-top: 20px;
+    }
+
+    .product-container {
+        display: block;
+        grid-template-columns: 1fr;
+        order: 1;  
+        margin-top: 20px;
+    }
+  }

@@ -10,8 +10,7 @@ const Cart = (props) => {
                 props.cart.map(item => <CartItems key={item.id} item={item}></CartItems>)
             }
             <button onClick={props.randomItem} className='btn'><p>Choose For Me</p></button>
-            {/* <p>{props.cooseItem.name}</p> */}
-            <button className='btn'><p>Choose Again</p></button>
+            <button onClick={props.refresh} className='btn'><p>Choose Again</p></button>
         </div>
     );
 };

@@ -27,6 +27,10 @@ const Shop = () => {
         let cooseItem = cart[random];
         setCart([cooseItem])
     }
+    const refresh = () => {
+        let reloade = [];
+        setCart(reloade);
+    }
     return (
         <div>
             <div className="shop-container">
@@ -36,7 +40,7 @@ const Shop = () => {
                     }
                 </div>
                 <div className="cart-container">
-                    <Cart cart={cart} randomItem={randomItem}></Cart>
+                    <Cart cart={cart} randomItem={randomItem} refresh={refresh}></Cart>
                 </div>
             </div>
         </div>
