@@ -28,7 +28,7 @@ const Shop = () => {
         setCart([cooseItem])
     }
     const refresh = () => {
-        let reloade = [];
+        const reloade = [];
         setCart(reloade);
     }
     return (
