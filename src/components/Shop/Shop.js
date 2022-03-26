@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import Blog from '../Blog/Blog';
 import Cart from '../Cart/Cart';
 import Products from '../Products/Products';
 import './Shop.css'
@@ -23,9 +24,11 @@ const Shop = () => {
         setCart(newCart);
     }
     const randomItem = () => {
-        const random = Math.floor(Math.random() * cart.length)
-        let cooseItem = cart[random];
-        setCart([cooseItem])
+        if (cart.length !== 0) {
+            const random = Math.floor(Math.random() * cart.length)
+            const cooseItem = [cart[random]];
+            setCart(cooseItem)
+        }
     }
     const refresh = () => {
         const reloade = [];
@@ -42,6 +45,9 @@ const Shop = () => {
                 <div className="cart-container">
                     <Cart cart={cart} randomItem={randomItem} refresh={refresh}></Cart>
                 </div>
+            </div>
+            <div className="blog-container">
+                <Blog></Blog>
             </div>
         </div>
     );

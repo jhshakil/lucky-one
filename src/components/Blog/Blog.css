@@ -1,0 +1,25 @@
+.blog {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+    margin: 50px 50px;
+}
+
+.question {
+    border: 2px solid #34495e;
+    border-radius: 10px;
+    padding: 10px 40px;
+}
+
+.question h3 {
+    color: red;
+}
+.text-left {
+    text-align: left;
+}
+
+@media only screen and (max-width: 600px) {
+    .blog {
+        display: block;
+    }
+}
