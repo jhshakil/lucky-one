@@ -10,12 +10,12 @@ const Blog = () => {
             </div>
             <div className="question">
                 <h2>Difference Between Props And State</h2>
-                <p className='text-left'><ul>
+                <ul className='text-left'>
                     <li>Props শুধু read-only অর্থাৎ পরিবর্তন করা যায় না কিন্তু state এ পরিবর্তন করা যায়।</li>
                     <li>Props use করা হয় দুইটা component এর মধ্যে communication করার জন্য আর state use করা হয় component এর ভিতরের পরিবর্তনকে rendering করার জন্য।</li>
                     <li>Props একটি component থেকে আরেকটি component এ data argument হিসেবে pass করে অন্যদিকে state component এর data কে store করে রাখে।</li>
                     <li>Props এর মাধ্যমে component কে reusable করা যায় যেটা state এর মাধ্যমে করা যায় না।</li>
-                </ul></p>
+                </ul>
             </div>
         </div>
     );
