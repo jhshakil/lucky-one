@@ -23,4 +23,15 @@
     font-size: medium;
     font-weight: bold;
     color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn-cart:hover {
+    background-color: orange;
+}
+
+.btn-text {
+    margin-left: 10px;
 }

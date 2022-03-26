@@ -12,3 +12,7 @@
     width: 100%;
     background-color: #34495e;
 }
+
+.btn:hover {
+    background-color: orange;
+}
