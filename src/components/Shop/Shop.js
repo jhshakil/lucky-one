@@ -26,11 +26,12 @@ const Shop = () => {
     const randomItem = () => {
         if (cart.length !== 0) {
             const random = Math.floor(Math.random() * cart.length)
+            // ........use for remove other items......... 
             // const cooseItem = [cart[random]];
             // setCart(cooseItem)
+            // ..........use for showing alert 
             const cooseItem = cart[random];
             alert('Your Coosing Item is : ' + cooseItem.name)
-            // console.log(cooseItem)
         }
     }
     const refresh = () => {
